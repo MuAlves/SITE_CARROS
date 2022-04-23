@@ -1,0 +1,35 @@
+@-webkit-keyframes 
+Rainbow{0%{background-color:#000000;}50%{background-color:#ff0000;}100%{background-color:#0066cc;}}
+
+body {background-color: black;-webkit-animation: 
+Rainbow 5s linear 2s infinite alternate;}
+
+#Master {margin: 0 auto;width: 815px;background-color: #fff;border-radius: 20px;}
+
+#top, #base {height: 155px;width: 100%;clear: both;margin-left: 5px;}
+
+#top {padding-top: 10px;}
+
+#base {padding-bottom: 10px;}
+
+#Middle {width: 100%;clear: both;background-color: #900;}
+
+#left, #right {width: 150px;height: auto;float: left;}
+
+#left {margin-left: 5px;}
+
+#centro {width: 450px;background-color: #FFF;height: auto;float: left;padding: 10px;text-align: center;margin: 10px;}
+
+.A, .B {float: left;padding: 5px;width: 140px;height: 140px;margin: 0 auto;margin: 5px;box-shadow: 0px 0px 10px #000000;border-radius: 10px;background-color: white;}
+
+.B {margin-top: 25px;}
+
+img {border-radius: 10px;}
+
+.column {-webkit-column-count: 2;-webkit-column-gap: normal;-webkit-column-rule: 4px double green;text-align: justify;}
+
+h3 {color: #639;font-family: Verdana, Geneva, sans-serif;}
+
+* {font-family: Arial, Helvetica, sans-serif;font-size: 10pt;}
+
+.foto {box-shadow: 10px 10px 20px #FC0;}
